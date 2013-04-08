@@ -1,0 +1,17 @@
+body                        { background:#201e1b; color:gray; }
+.wrapper                    { width:980px; margin:0 auto; }
+.top                        { padding:40px 20px 10px; }
+.top .nav                   { position:relative; float:right; }
+.top .nav li                { float:left; height:18px; line-height:18px; margin:0; padding:0;list-style:none outside none;width:80px; text-align:right; }
+.top .nav li a              { color:#ddd }
+.top .nav li a:hover,
+.top .nav li a.current      { color:#fff; font-weight:bold; text-decoration:none; }
+.wrapper .main              { background:#1b1916; padding:20px; }
+.main .rt                   { float:right; padding:0 20px; width:600px; }
+.main .lt                   { overflow:hidden;padding:20px; margin-right:40px; }
+.main .lt img               { max-width:100%; }
+.main h1                    { font-size:1.077em;  margin-bottom:3em;}
+.main h2                    { font-size:1.077em;   margin-bottom:3em; }
+.main p                     { margin-bottom:3em; }
+.about .lt                  { padding-top:85px; }
+.bottom                     { padding:20px 40px; }

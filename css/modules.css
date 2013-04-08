@@ -1,0 +1,96 @@
+.middle
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.center
+{
+  width: 427px;
+  height: 263px;
+  margin: 0 auto;
+   
+}
+
+
+/* --------- right: where we have arrow to PREV li --------- */
+.left
+{
+  /*border: 2px solid gray;*/
+  float: left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin:10px;}
+
+#l_arrow /* <= */
+{
+background: url('../images/blue_arrow_sprite.png') 1px 31px;
+width: 30px;
+height: 30px;
+display: block;
+}
+
+
+/* --------- right: where we have arrow to NEXT li --------- */
+.right
+{
+  float: left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin:10px;
+}
+
+#r_arrow /* => */
+{
+  background: url('../images/blue_arrow_sprite.png') 0px 0px;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+
+/* --------- center: where we see our content --------- */
+
+
+#cont_slider
+{
+  margin: 0 auto;
+  border: 2px solid green;
+  height: 263px;
+  width:323px;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+}
+
+#slider
+{
+  margin: 0 auto;
+  padding: 0em;
+  width: 10000px;
+  height: 261px;
+  position: relative;
+}
+#slider li
+{
+  list-style: none outside none;
+  float: left;
+  width: 311px;
+  height: 261px;
+  padding: 5px;
+}
+
+
+#slider li img
+{
+  display:block;
+  width: 301px;
+  height: 251px;
+ }
+p, h1 
+{
+  text-align: center;
+}
